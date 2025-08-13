@@ -4,18 +4,23 @@ The dataset was loaded and cleaned during the Data Preparation phase by removing
 ## Data Preparation:
 
 i) Loaded the CSV dataset containing [ImDb movie reviews](https://www.kaggle.com/datasets/mantri7/imdb-movie-reviews-dataset) and their sentiment labels (`0=negative`, `1=positive`)
+
 ii) Cleaned the text by removing `HTML tags, punctuation, numbers, converting to lowercase, and removing stopwords`
+
 iii) Split the data into `80%` training and `20%` testing sets
 
 ## Model Training:
 
 i) Used `TF-IDF` vectorization to convert text to numerical features
+
 ii) Trained a `Logistic Regression` classifier as the primary model
 
 ## Evaluation:
 
 i) Calculated standard metrics: `accuracy`, `precision`, `recall`, and `F1-score`
+
 ii) Generated a `confusion matrix` visualization
+
 iii) Saved both the trained model and vectorizer for future use
 
 ## Demo Script:
@@ -24,10 +29,14 @@ i) Created a function called `predict_sentiment()` that takes user input text an
 
 ## Tools Used:
 
-i) Jupyter Notebook and Python as IDE
+i) Jupyter Notebook(Google Colab) and Python as IDE
+
 ii) Pandas for data manipulation
+
 iii) NLTK for text processing
+
 iv) Scikit-learn for model training and evaluation
+
 v) Matplotlib/Seaborn for visualization
 
 ## Results:
