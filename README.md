@@ -11,5 +11,5 @@ Approaches here i used:
 
 3. Deep Learning Model
 
-	- [LSTM](https://github.com/cs-joy/Sentiment-Analysis-Model/tree/main/Deep-Learning/LSTM "under development")
+	- [LSTM](https://github.com/cs-joy/Sentiment-Analysis-Model/tree/main/Deep-Learning/LSTM)
 		- [Release - v1.0](https://github.com/cs-joy/Sentiment-Analysis "upcoming...")
